@@ -19,7 +19,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 // FTC Team 11242 - Error 404 - Ferris High School - Ferris, TX
 
-@TeleOp(name="Template: Linear OpMode", group="Linear Opmode")  // @Autonomous(...) is the other common choice
+@TeleOp(name="Template: Linear OpMode", group="Linear Opmode")
 @Disabled
 public class TemplateOpMode_Linear extends LinearOpMode {
 
