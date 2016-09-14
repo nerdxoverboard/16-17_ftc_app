@@ -17,7 +17,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-// FTC Team 11242 - Error 404 - Ferris High School - Ferris, TX
+// (c) 2016 - FTC Team 11242 - Error 404 - Ferris High School - Ferris, TX
 
 @TeleOp(name="Template: Linear OpMode", group="Linear Opmode")
 @Disabled
