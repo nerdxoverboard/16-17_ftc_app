@@ -8,6 +8,28 @@ Neither the name of Robert Atkinson nor the names of his contributors may be use
 NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESSFOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+/*
+
+__/\\\\\\\\\\\\\\\____/\\\\\\\\\________/\\\\\\\\\___________/\\\\\_________/\\\\\\\\\________________
+__\/\\\///////////___/\\\///////\\\____/\\\///////\\\_______/\\\///\\\_____/\\\///////\\\_____________
+___\/\\\_____________\/\\\_____\/\\\___\/\\\_____\/\\\_____/\\\/__\///\\\__\/\\\_____\/\\\____________
+____\/\\\\\\\\\\\_____\/\\\\\\\\\\\/____\/\\\\\\\\\\\/_____/\\\______\//\\\_\/\\\\\\\\\\\/____________
+_____\/\\\///////______\/\\\//////\\\____\/\\\//////\\\____\/\\\_______\/\\\_\/\\\//////\\\___________
+______\/\\\_____________\/\\\____\//\\\___\/\\\____\//\\\___\//\\\______/\\\__\/\\\____\//\\\_________
+_______\/\\\_____________\/\\\_____\//\\\__\/\\\_____\//\\\___\///\\\__/\\\____\/\\\_____\//\\\_______
+________\/\\\\\\\\\\\\\\\_\/\\\______\//\\\_\/\\\______\//\\\____\///\\\\\/_____\/\\\______\//\\\_____
+_________\///////////////__\///________\///__\///________\///_______\/////_______\///________\///_____
+____________________________________/\\\________/\\\\\\\_______________/\\\___________________________
+___________________________________/\\\\\______/\\\/////\\\___________/\\\\\__________________________
+__________________________________/\\\/\\\_____/\\\____\//\\\________/\\\/\\\_________________________
+_________________________________/\\\/\/\\\____\/\\\_____\/\\\______/\\\/\/\\\________________________
+________________________________/\\\/__\/\\\____\/\\\_____\/\\\____/\\\/__\/\\\_______________________
+_______________________________/\\\\\\\\\\\\\\\\_\/\\\_____\/\\\__/\\\\\\\\\\\\\\\\___________________
+______________________________///////////\\\//__\//\\\____/\\\__\///////////\\\//_____________________
+__________________________________________\/\\\_____\///\\\\\\\/_____________\/\\\____________________
+___________________________________________\///________\///////_______________\///____________________
+*/
+
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
