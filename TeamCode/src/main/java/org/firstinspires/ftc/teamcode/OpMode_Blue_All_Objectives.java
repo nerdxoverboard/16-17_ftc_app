@@ -41,6 +41,8 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 // (c) 2016 - FTC Team 11242 - Error 404 - Ferris High School - Ferris, TX
 
 /**
+TEST COMMENT
+
  * This file illustrates the concept of driving a path based on encoder counts.
  * It uses the common Pushbot hardware class to define the drive on the robot.
  * The code is structured as a LinearOpMode
