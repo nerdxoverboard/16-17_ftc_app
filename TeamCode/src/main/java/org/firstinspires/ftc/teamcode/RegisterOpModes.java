@@ -8,7 +8,7 @@ Neither the name of Qualcomm Technologies Inc nor the names of its contributors 
 NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 */
 
-package org.firstinspires.ftc.robotcontroller.external.samples;
+package org.firstinspires.ftc.teamcode;
 
 import android.hardware.Sensor;
 import android.util.Log;
@@ -17,6 +17,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpModeRegistrar;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import org.firstinspires.ftc.robotcontroller.external.samples.*;
+import org.firstinspires.ftc.teamcode.OpMode_Linear;
 
 // FTC Team 11242 - Error 404 - Ferris High School - Ferris, TX
 
@@ -44,13 +45,19 @@ import org.firstinspires.ftc.robotcontroller.external.samples.*;
  * Then uncomment and copy the manager.register() call to register as many of your OpModes as you like.
  * You can even use it to temporarily register samples directly from the robotController/external/samples folder.
  */
-public class ConceptRegisterOpModes
+public class RegisterOpModes
 {
 
   @OpModeRegistrar
   public static void registerMyOpModes(OpModeManager manager) {
     // Un-comment any line to enable that sample.
     // Or add your own lines to register your Team opmodes.
+
+
+    // ERROR 404 - FERRIS ISD OPMODES
+    manager.register("Autonomous: All Blue",   Blue_All_Objectives.class);
+    manager.register("TeleOp: Gage",           OpMode_Linear.class);
+    manager.register("TeleOp: Tank Drive",           TeleOpMode.class);
 
     // Basic Templates
     // manager.register("Iterative Opmode",       TemplateOpMode_Iterative.class);
