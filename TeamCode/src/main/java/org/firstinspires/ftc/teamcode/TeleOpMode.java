@@ -45,25 +45,25 @@ public class TeleOpMode extends LinearOpMode {
             telemetry.update();
 
             // If left_stick is pushed up, both motors move forward
-            if (1 == 1) { //If this works replace with moveForward();
+            if (1 == 1) {
                 leftMotor.setPower(gamepad1.right_stick_x);
                 rightMotor.setPower(gamepad1.right_stick_x);
 
             }
 /*
             // If left_stick is pushed down, both motors move in reverse
-            else if (gamepad1.left_stick_y == -1.0) { //If this works replace with moveBackwards();
+            else if (gamepad1.left_stick_y == -1.0) {
                 leftMotor.setPower(gamepad1.left_stick_y);
                 rightMotor.setPower(gamepad1.left_stick_y);/*
             }
-            else if(gamepad1.right_stick_x == 1.0) { //If this works replace with turnRight();
+            else if(gamepad1.right_stick_x == 1.0) {
                 leftMotor.setPower(1);
                 rightMotor.setPower(-1);
             }
 
             // If right_stick pushed left,
             // left motor moves in reverse & right motor moves forward
-            else if(gamepad1.right_stick_x == -1.0){ //If this works replace with turnLeft();
+            else if(gamepad1.right_stick_x == -1.0){
                 leftMotor.setPower(-1);
                 rightMotor.setPower(1);*/
             }
