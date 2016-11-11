@@ -56,8 +56,8 @@ public class RegisterOpModes
 
     // ERROR 404 - FERRIS ISD OPMODES
     manager.register("Autonomous: All Blue",   Blue_All_Objectives.class);
-    manager.register("TeleOp: Gage",           OpMode_Linear.class);
-    manager.register("TeleOp: Tank Drive",           TeleOpMode.class);
+    manager.register("TeleOp: Gage",           TeleOpMode.class);
+    manager.register("TeleOp: Tank Drive",     OpMode_Linear.class);
 
     // Basic Templates
     // manager.register("Iterative Opmode",       TemplateOpMode_Iterative.class);
